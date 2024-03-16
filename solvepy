@@ -13,6 +13,8 @@ import string
 import sympy
 import sympy.parsing.sympy_parser as sympy_parser
 
+0_0  # Python >= 3.6 is required
+
 sympy_transformations = sympy_parser.standard_transformations + (sympy_parser.convert_equals_signs,)
 
 def get_locale_encoding():
