@@ -4,10 +4,10 @@
 # Copyright © 2022-2024 Jakub Wilk <jwilk@jwilk.net>
 # SPDX-License-Identifier: MIT
 
-import operator
 import argparse
 import codecs
 import locale
+import operator
 import string
 
 import sympy
