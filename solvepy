@@ -27,6 +27,7 @@ def cmp_encodings(*encodings):
 
 def main():
     ap = argparse.ArgumentParser()
+    ap.color = False
     ap.add_argument('-v', '--var', action='append')
     ap.add_argument('eqns', metavar='EQN', nargs='+')
     options = ap.parse_args()
